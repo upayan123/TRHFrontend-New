@@ -1822,7 +1822,7 @@ body .search-modal .close:hover {
   background-position: center center !important;
 }
 .rs-breadcrumbs .breadcrumbs-inner {
-  padding: 200px 0 100px;
+  padding: 100px 0 100px;
 }
 .rs-breadcrumbs .breadcrumbs-inner .page-title {
   font-size: 48px;
@@ -7170,7 +7170,7 @@ Blog Details Area CSS
   transition: all 0.5s ease;
   padding: 30px 30px 50px 30px;
   -webkit-box-shadow: 0 15px 30px 0 rgba(255, 69, 0, 0.15);
-          box-shadow: 0 15px 30px 0 rgba(255, 69, 0, 0.15);
+          box-shadow: 0 15px 30px 0 rgba(255, 69, 0, 0.15);height: 450px;
 }
 
 .technology-item .technology-bg-img {
@@ -7644,11 +7644,25 @@ div.job-tag span {
   .enquirebtn{   font-size: 12px;
     padding: 6px 10px 6px 5px;
     margin-left: 23px}
+    .rs-testimonial.style1 .pattern-img .common {
+     
+      display: none;
+  }
 
+    .pb-133 {
+      padding-bottom: 20px;
+  }
+  
+  .pt-133 {
+      padding-top: 20px;
+  }
  
     .pt-95 {
-      padding-top: 10px;
+      padding-top: 20px;
   }
+
+  .pb-95{padding-bottom: 20px;}
+
   .client23 img {width:100px ;}
 
 
@@ -7722,4 +7736,17 @@ div.job-tag span {
     }
     .rs-slider.rs-slider-style3.slider3 .content-part .sl-title{margin-bottom: 18px;}
 
+}
+.alice-carousel__dots {
+  margin: 0px 3px 5px !important;
+  
+}
+.widget-area .widget_recent_post .item .thumb .fullimage.bg1 {
+  background-image: url(../../public/images/blog-1.jpg);
+}
+.widget-area .widget_recent_post .item .thumb .fullimage.bg2 {
+  background-image: url(../../public/images/blog-2.jpg);
+}
+.widget-area .widget_recent_post .item .thumb .fullimage.bg3 {
+  background-image: url(../../public/images/blog-3.jpg);
 }
