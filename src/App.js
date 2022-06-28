@@ -1,5 +1,4 @@
 import "./App.css";
-//import "./rapidcss/bootstrap.min.css.";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./rapidcss/style.css";
 import "./rapidcss/responsive.css";
@@ -26,11 +25,8 @@ import Sidebar from "./components/Sidebar";
 function App () {
   return (
     <div>
-   
-   
       <BrowserRouter>
-      <Header/>
-      
+      <Header/>    
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<Aboutus />}></Route>
@@ -45,8 +41,7 @@ function App () {
           <Route exact path="/return" element={<Return />}></Route>
           <Route exact path="/blogdetail" element={<Blogdetail />}></Route>
           <Route exact path="/apply" element={<Apply />}></Route>
-          <Route exact path="/terms" element={<Terms/>}></Route>
-          
+          <Route exact path="/terms" element={<Terms/>}></Route>    
         </Routes>
         <Footer/>
         <Sidebar/>

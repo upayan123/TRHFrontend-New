@@ -438,9 +438,7 @@ button:focus {
   background: #00a3e8;
   opacity: .5;
 }
-/* ------------------------------------
-    02. Global Class CSS
----------------------------------------*/
+
 .y-middle {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -812,7 +810,6 @@ button:focus {
 .add-btn:hover {
   opacity: 0.7;
 }
-/*-- Submit Button Css --*/
 .submit-btn {
   box-shadow: 0 28px 50px 0 rgba(0, 0, 0, 0.05);
   outline: 0;
@@ -1122,9 +1119,7 @@ button:focus {
 .sec-title4 .title {
   color: #043d72;
 }
-/* -----------------------
-    03. Header Section CSS
---------------------------*/
+
 .full-width-header {
   position: relative;
 }
@@ -1659,22 +1654,18 @@ body .search-modal .search-block form button i:before {
   font-weight: 600;
 }
 body .search-modal .search-block ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #fff;
   opacity: 1;
 }
 body .search-modal .search-block ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #fff;
   opacity: 0.3;
 }
 body .search-modal .search-block :-ms-input-placeholder {
-  /* IE 10+ */
   color: #fff;
   opacity: 1;
 }
 body .search-modal .search-block :-moz-placeholder {
-  /* Firefox 18- */
   color: #fff;
   opacity: 1;
 }
@@ -1705,9 +1696,7 @@ body .search-modal .close span:before {
 body .search-modal .close:hover {
   opacity: 0.8 !important;
 }
-/*------------------------------------
-    04. Sticky Menu CSS
---------------------------------------*/
+
 .menu-sticky {
   background: #fff;
   margin: 0;
@@ -1737,10 +1726,6 @@ body .search-modal .close:hover {
   }
 }
 
-
-/* ------------------------------------
-    06. Appointment Section CSS
----------------------------------------*/
 .rs-appointment.style1 .border-section {
   border-style: solid;
   border-width: 2px 0px 0px 0px;
@@ -1773,22 +1758,18 @@ body .search-modal .close:hover {
   height: 120px;
 }
 .rs-appointment.style1 .appoint-schedule .contact-wrap ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #000;
   opacity: 1;
 }
 .rs-appointment.style1 .appoint-schedule .contact-wrap ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #000;
   opacity: 1;
 }
 .rs-appointment.style1 .appoint-schedule .contact-wrap :-ms-input-placeholder {
-  /* IE 10+ */
   color: #000;
   opacity: 1;
 }
 .rs-appointment.style1 .appoint-schedule .contact-wrap :-moz-placeholder {
-  /* Firefox 18- */
   color: #000;
   opacity: 1;
 }
@@ -1813,9 +1794,7 @@ body .search-modal .close:hover {
   background-color: #fff;border-radius: 20px;
   box-shadow: 0 6px 25px rgb(12 89 219 / 9%);
 }
-/* ------------------------------------
-    07. Breadcrumbs Section CSS
----------------------------------------*/
+
 .rs-breadcrumbs {
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -1904,9 +1883,6 @@ body .search-modal .close:hover {
 }
 
 
-/*---------------------------------------
-    09. Slider Section CSS
----------------------------------------*/
 .rs-slider {
   position: relative;
   overflow: hidden;
@@ -1914,8 +1890,6 @@ body .search-modal .close:hover {
 }
 .rs-slider.slider3 {
   position: relative;
-  /*-- Animations Start --*/
-  /*-- Animations End --*/
 }
 .rs-slider.slider3 .desc {
   font-size: 17px;
@@ -2101,9 +2075,6 @@ body .search-modal .close:hover {
 }
 
 
-/* ------------------------------------
-    11. Iconbox Area Section CSS
----------------------------------------*/
 .rs-iconbox-area .box-inner .box-item {
   background: #ffffff;
   padding: 50px 12px 40px 12px;
@@ -2118,9 +2089,6 @@ body .search-modal .close:hover {
   margin: 0;
 }
 
-/* ------------------------------------
-    13. Services Section CSS
----------------------------------------*/
 .rs-services.main-home .services-item {
   display: flex;
 }
@@ -3008,15 +2976,10 @@ body .search-modal .close:hover {
   color: #00a3e8;
 }
 
-/* ------------------------------------
-    16. Choose Us Section CSS
----------------------------------------*/
 .rs-why-choose.style1 .choose-content {
   padding: 100px 130px 100px;
 }
-/* ------------------------------------
-    17. Team Section CSS
----------------------------------------*/
+
 .rs-team.style1 .team-wrap {
   position: relative;
   transition: all 0.3s ease;
@@ -3453,10 +3416,6 @@ border:2px dotted #000}
 }
 
 
-
-/* ------------------------------------
-    23. Testimonial Section CSS
----------------------------------------*/
 .rs-testimonial.main-home .testi-image img {
   position: relative;
   max-width: 600px;
@@ -3745,12 +3704,7 @@ border:2px dotted #000}
   max-width: 330px;
   margin: 0 auto 0 0;
 }
-/*-----------------------------------------------
-    #. Partner Section Css
------------------------------------------------*/
-.rs-partner {
-  /* Owl Carousel Nav */
-}
+
 .rs-partner .item {
   text-align: center;
 }
@@ -3806,9 +3760,7 @@ border:2px dotted #000}
 .rs-partner .owl-carousel:hover [class*="owl-"] .owl-next {
   right: -50px;
 }
-/*-----------------------------------------------
-    #. Achievement Section Css
------------------------------------------------*/
+
 .rs-achievement.style1 .img-part {
   position: relative;
   right: -100px;
@@ -3870,9 +3822,7 @@ border:2px dotted #000}
   top: 141px;
   z-index: -1;
 }
-/*-----------------------------------------------
-    #. Estimate Section Css
------------------------------------------------*/
+
 .rs-estimate .image-part {
   position: relative;
   left: -70px;
@@ -3906,9 +3856,7 @@ border:2px dotted #000}
   top: 100px;
   z-index: -1;
 }
-/*-----------------------------------------------
-    #. Call to Action Section Css
------------------------------------------------*/
+
 .rs-cta.style1 {
   overflow: hidden;
 }
@@ -3930,9 +3878,7 @@ border:2px dotted #000}
   position: relative;
   z-index: 1;
 }
-/*----------------------------------------
-    24. Shop Section CSS
-----------------------------------------*/
+
 .rs-shop-part .woocommerce-result-count {
   font-size: 15px;
   line-height: 26px;
@@ -4018,9 +3964,7 @@ border:2px dotted #000}
   visibility: visible;
   bottom: 13px;
 }
-/*----------------------------------------
-    25. Single Shop Section CSS
-----------------------------------------*/
+
 .rs-single-shop .single-product-image .images-single {
   z-index: 1 !important;
 }
@@ -4156,9 +4100,6 @@ border:2px dotted #000}
   font-weight: normal;
 }
 
-/*------------------------------------
-    31. Footer Section CSS
-------------------------------------*/
 .rs-footer.style1 {
   background: url(../../public/images/footer.jpg) no-repeat top;
   background-size: cover;
@@ -4287,22 +4228,18 @@ border:2px dotted #000}
   opacity: .9;
 }
 .rs-footer.style1 .footer-top p ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #0a0a0a;
   opacity: 1;
 }
 .rs-footer.style1 .footer-top p ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #0a0a0a;
   opacity: 1;
 }
 .rs-footer.style1 .footer-top p :-ms-input-placeholder {
-  /* IE 10+ */
   color: #0a0a0a;
   opacity: 1;
 }
 .rs-footer.style1 .footer-top p :-moz-placeholder {
-  /* Firefox 18- */
   color: #0a0a0a;
   opacity: 1;
 }
@@ -4531,9 +4468,7 @@ border:2px dotted #000}
 .extra-pb {
   padding-bottom: 306px;
 }
-/* -----------------------
-    32. Scroll Up CSS
---------------------------*/
+
 #scrollUp {
   text-align: center;
   bottom: 40px;
@@ -4679,9 +4614,7 @@ border:2px dotted #000}
 .pr-30 {
   padding-right: 30px;
 }
-/*----------------------------------------------
-    33. Preloader CSS
-----------------------------------------------*/
+
 #pre-load {
   background-color: #fff;
   height: 100%;
@@ -4728,28 +4661,21 @@ border:2px dotted #000}
   width: 30px;
 }
 .woocommerce .quantity input[type="number"]::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #363636 !important;
   opacity: 1;
 }
 .woocommerce .quantity input[type="number"]::-moz-placeholder {
-  /* Firefox 19+ */
   color: #363636 !important;
   opacity: 1;
 }
 .woocommerce .quantity input[type="number"]:-ms-input-placeholder {
-  /* IE 10+ */
   color: #363636 !important;
   opacity: 1;
 }
 .woocommerce .quantity input[type="number"]:-moz-placeholder {
-  /* Firefox 18- */
   color: #363636 !important;
   opacity: 1;
 }
-/* ------------------------------------
-    34. Animation Part CSS
----------------------------------------*/
 @keyframes loaderspin {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -5000,13 +4926,11 @@ border:2px dotted #000}
     transform: translateY(0);
   }
 }
-/* Draw Line Animation */
 @keyframes start-draw {
   to {
     height: 95%;
   }
 }
-/* Infinite Rotation Animation */
 @keyframes rotate-anim {
   from {
     -webkit-transform: rotate(0deg);
@@ -5015,7 +4939,6 @@ border:2px dotted #000}
     -webkit-transform: rotate(359deg);
   }
 }
-/*Pulse Border Animation*/
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -5045,17 +4968,6 @@ border:2px dotted #000}
 .gray-bg {
     background: #ebebeb;
 }
-/*.rs-slider .slider-footer {
-    position: absolute;
-    z-index: 1;
-    bottom: -10px;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-}*/
 
 .rs-slider .wave {
     position: absolute;
@@ -5319,9 +5231,6 @@ border:2px dotted #000}
 .full-width-header .rs-header .menu-area.sticky .enquirebtn:hover {
   background: #fff;border: 2px solid #00a3e8;color:#00a3e8 !important ;
 }
-/*================================================
-About Area CSS
-=================================================*/
 
 .about-circle-shape {
   position: absolute;
@@ -5363,9 +5272,6 @@ About Area CSS
   }
 }
 
-/*================================================
-Choose Area CSS
-=================================================*/
 .choose-area {
   position: relative;
   
@@ -5448,9 +5354,7 @@ Choose Area CSS
   top: -300px;
  
 }
-/* ------------------------------------
-    30. Contact Section CSS
----------------------------------------*/
+
 .rs-contact.main-home .contact-wrap .from-control {
   padding: 17px 17px 17px 17px;
   color: #FFFFFF;
@@ -5466,22 +5370,18 @@ Choose Area CSS
   height: 120px;
 }
 .rs-contact.main-home .contact-wrap ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #fff;
   opacity: 1;
 }
 .rs-contact.main-home .contact-wrap ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #fff;
   opacity: 1;
 }
 .rs-contact.main-home .contact-wrap :-ms-input-placeholder {
-  /* IE 10+ */
   color: #fff;
   opacity: 1;
 }
 .rs-contact.main-home .contact-wrap :-moz-placeholder {
-  /* Firefox 18- */
   color: #fff;
   opacity: 1;
 }
@@ -5581,22 +5481,18 @@ animation-name: dance_hover;
   height: 120px;
 }
 .rs-contact.main-home.office-modify1 .contact-section .contact-wrap ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #454545;
   opacity: 0.55;
 }
 .rs-contact.main-home.office-modify1 .contact-section .contact-wrap ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #454545;
   opacity: 0.55;
 }
 .rs-contact.main-home.office-modify1 .contact-section .contact-wrap :-ms-input-placeholder {
-  /* IE 10+ */
   color: #454545;
   opacity: 1;
 }
 .rs-contact.main-home.office-modify1 .contact-section .contact-wrap :-moz-placeholder {
-  /* Firefox 18- */
   color: #454545;
   opacity: 0.55;
 }
@@ -5643,22 +5539,18 @@ animation-name: dance_hover;
   background-color: #F1F1F1;
 }
 .rs-contact.main-home.home5-contact-style ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #454545;
   opacity: 0.4;
 }
 .rs-contact.main-home.home5-contact-style ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #454545;
   opacity: 0.4;
 }
 .rs-contact.main-home.home5-contact-style :-ms-input-placeholder {
-  /* IE 10+ */
   color: #454545;
   opacity: 0.4;
 }
 .rs-contact.main-home.home5-contact-style :-moz-placeholder {
-  /* Firefox 18- */
   color: #454545;
   opacity: 0.4;
 }
@@ -5718,22 +5610,18 @@ animation-name: dance_hover;
   height: 120px;
 }
 .rs-contact.contact-style2 .contact-wrap ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #454545;
   opacity: 0.55;
 }
 .rs-contact.contact-style2 .contact-wrap ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #454545;
   opacity: 0.55;
 }
 .rs-contact.contact-style2 .contact-wrap :-ms-input-placeholder {
-  /* IE 10+ */
   color: #454545;
   opacity: 1;
 }
 .rs-contact.contact-style2 .contact-wrap :-moz-placeholder {
-  /* Firefox 18- */
   color: #454545;
   opacity: 0.55;
 }
@@ -5781,22 +5669,18 @@ animation-name: dance_hover;
   height: 120px;
 }
 .rs-contact.home3-contact-style .contact-wrap ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #454545;
   opacity: 0.55;
 }
 .rs-contact.home3-contact-style .contact-wrap ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #454545;
   opacity: 0.55;
 }
 .rs-contact.home3-contact-style .contact-wrap :-ms-input-placeholder {
-  /* IE 10+ */
   color: #454545;
   opacity: 0.55;
 }
 .rs-contact.home3-contact-style .contact-wrap :-moz-placeholder {
-  /* Firefox 18- */
   color: #454545;
   opacity: 0.55;
 }
@@ -5810,9 +5694,7 @@ animation-name: dance_hover;
 .mb-35 {
     margin-bottom: 35px;
 }
-/*================================================
-Blog Area CSS
-=================================================*/
+
 .blog-area {
   overflow: hidden;
   position: relative;
@@ -6257,9 +6139,6 @@ Blog Area CSS
   visibility: visible;
 }
 
-/*================================================
-Blog Details Area CSS
-=================================================*/
 .blog-details-desc .article-image {
   border-radius: 15px;
   overflow: hidden;
@@ -7024,15 +6903,6 @@ Blog Details Area CSS
 .main-content{overflow: hidden;}
 .mb-65{margin-bottom: 65px;}
 
-/*.our-service-area {
-  
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}*/
-
 .our-service-area::before {
   content: "";
   position: absolute;
@@ -7456,9 +7326,6 @@ Blog Details Area CSS
   background: #171718;
 }
 
-/* ---------------------------------------------------------------- */
-/* Responsive Media Query (576px)
-/* ---------------------------------------------------------------- */
 @media only screen and (max-width: 575.98px) {
   .resume-item .body {
     display: block;
@@ -7471,8 +7338,6 @@ Blog Details Area CSS
   }
 }
 
-/* ---------------------------------------------------------------- */
-/* 6. Job */
 .job-wrapper {
   border: 1px solid #ebebeb;
   padding: 45px 20px;
